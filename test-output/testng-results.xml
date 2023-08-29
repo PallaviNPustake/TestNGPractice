@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launched Build-A-Bear application]]>
+    </line>
+    <line>
+      <![CDATA[URL is matching]]>
+    </line>
+    <line>
+      <![CDATA[Log In/Sign Up button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Loginn page URL is matching]]>
+    </line>
+    <line>
+      <![CDATA[Entering email id]]>
+    </line>
+    <line>
+      <![CDATA[Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Log In]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-08-06T19:27:40 IST" name="Default suite" finished-at="2023-08-06T19:28:34 IST" duration-ms="54118">
+    <groups>
+    </groups>
+    <test started-at="2023-08-06T19:27:40 IST" name="Default test" finished-at="2023-08-06T19:28:34 IST" duration-ms="54118">
+      <class name="test.ValidateLogin">
+        <test-method is-config="true" signature="openBuildaBear()[pri:0, instance:test.ValidateLogin@4681c175]" started-at="2023-08-06T19:27:40 IST" name="openBuildaBear" finished-at="2023-08-06T19:28:08 IST" duration-ms="28731" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched Build-A-Bear application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBuildaBear -->
+        <test-method signature="validateBuild_A_BearURL()[pri:-2, instance:test.ValidateLogin@4681c175]" started-at="2023-08-06T19:28:08 IST" name="validateBuild_A_BearURL" finished-at="2023-08-06T19:28:08 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBuild_A_BearURL -->
+        <test-method signature="validateSignUpButtonIsDisplayed()[pri:-1, instance:test.ValidateLogin@4681c175]" started-at="2023-08-06T19:28:08 IST" name="validateSignUpButtonIsDisplayed" finished-at="2023-08-06T19:28:09 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log In/Sign Up button is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSignUpButtonIsDisplayed -->
+        <test-method signature="validateSignUpLoginButton()[pri:0, instance:test.ValidateLogin@4681c175]" started-at="2023-08-06T19:28:09 IST" name="validateSignUpLoginButton" finished-at="2023-08-06T19:28:09 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignUpLoginButton -->
+        <test-method signature="validatingloginPageURL()[pri:0, instance:test.ValidateLogin@4681c175]" started-at="2023-08-06T19:28:09 IST" name="validatingloginPageURL" finished-at="2023-08-06T19:28:10 IST" duration-ms="803" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Loginn page URL is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatingloginPageURL -->
+        <test-method signature="validateLogin()[pri:1, instance:test.ValidateLogin@4681c175]" started-at="2023-08-06T19:28:10 IST" name="validateLogin" finished-at="2023-08-06T19:28:34 IST" duration-ms="23828" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering email id]]>
+            </line>
+            <line>
+              <![CDATA[Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Log In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+      </class> <!-- test.ValidateLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
